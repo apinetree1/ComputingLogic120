@@ -1,0 +1,29 @@
+Start
+define num1, num2, answer
+input num1 + "Enter miles driven:"
+input num2 + "Enter gallons used:"
+answer = num1 / num2
+print "the miles per gallon is:" + answer
+End
+
+
+Start
+define num1, num2, answer
+input num1 + "Enter monthly rent amount:"
+input num2 + "Enter days in the month:"
+answer = num1 / num2
+print "Daily Rent is:" + answer
+End
+
+
+Start
+define Can I respond to a text, answer
+if driving
+  answer = no
+ifelse sleeping
+  answer = no
+ifelse busy
+  answer = no
+else answer = yes
+  print "Can I respond to a text:" + answer
+End
